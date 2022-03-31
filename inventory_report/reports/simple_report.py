@@ -48,36 +48,3 @@ class SimpleReport():
             f"produtos estocados: {nome_empresa}\n"
         print(stringToReturn)
         return stringToReturn
-
-listObject  = [
-  {
-    "id": 1,
-    "nome_do_produto": "CALENDULA OFFICINALIS FLOWERING TOP, GERANIUM MACULATUM ROOT, SODIUM CHLORIDE, THUJA OCCIDENTALIS LEAFY TWIG, ZINC, and ECHINACEA ANGUSTIFOLIA",
-    "nome_da_empresa": "Forces of Nature",
-    "data_de_fabricacao": "2019-08-04",
-    "data_de_validade": "2023-02-09",
-    "numero_de_serie": "FR48 2002 7680 97V4 W6FO LEBT 081",
-    "instrucoes_de_armazenamento": "in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices    phasellus"
-  },
-  {
-    "id": 1,
-    "nome_do_produto": "CALENDULA OFFICINALIS FLOWERING TOP, GERANIUM MACULATUM ROOT, SODIUM CHLORIDE, THUJA OCCIDENTALIS LEAFY TWIG, ZINC, and ECHINACEA ANGUSTIFOLIA",
-    "nome_da_empresa": "Test",
-    "data_de_fabricacao": "2020-07-04",
-    "data_de_validade": "2023-02-09",
-    "numero_de_serie": "FR48 2002 7680 97V4 W6FO LEBT 081",
-    "instrucoes_de_armazenamento": "in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices    phasellus"
-  },
-  {
-    "id": 1,
-    "nome_do_produto": "CALENDULA OFFICINALIS FLOWERING TOP, GERANIUM MACULATUM ROOT, SODIUM CHLORIDE, THUJA OCCIDENTALIS LEAFY TWIG, ZINC, and ECHINACEA ANGUSTIFOLIA",
-    "nome_da_empresa": "Forces of Nature",
-    "data_de_fabricacao": "2015-08-10",
-    "data_de_validade": "2023-02-09",
-    "numero_de_serie": "FR48 2002 7680 97V4 W6FO LEBT 081",
-    "instrucoes_de_armazenamento": "in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices    phasellus"
-  }
-
-]
-
-SimpleReport.generate(listObject)
