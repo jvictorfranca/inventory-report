@@ -52,7 +52,7 @@ Nesse projeto, você será capaz de:
 
   - Projeto obrigatório;
   - Serão `2` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `08/04/2022 14:00`.
+  - Data de entrega para avaliação final do projeto: `08/04/2022 14:10`.
 
 ---
 
