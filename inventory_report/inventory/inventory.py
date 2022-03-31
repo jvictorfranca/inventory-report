@@ -25,7 +25,6 @@ class DataReader():
               ]
         return data
 
-
     @classmethod
     def read_json(cls, path):
         with open(path) as file:
@@ -61,8 +60,3 @@ class Inventory():
         elif tipo == "completo":
             dataToReturn = CompleteReport.generate(data)
         return dataToReturn
-
-report = Inventory.import_data('inventory_report/data/inventory.xml',
-                                   'simples')
-
-print(report)
