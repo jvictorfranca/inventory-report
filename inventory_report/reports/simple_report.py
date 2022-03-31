@@ -46,5 +46,4 @@ class SimpleReport():
             f"Data de validade mais próxima: {data_validade}\n"\
             f"Empresa com maior quantidade de "\
             f"produtos estocados: {nome_empresa}\n"
-        print(stringToReturn)
         return stringToReturn

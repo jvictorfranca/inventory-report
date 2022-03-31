@@ -27,5 +27,4 @@ class CompleteReport(SimpleReport):
             f"Empresa com maior quantidade de "\
             f"produtos estocados: {nome_empresa}\n\n"\
             f"{aditional_string}"
-        print(stringToReturn)
         return stringToReturn
