@@ -22,7 +22,7 @@ def main():
 
     if extension == 'xml':
         importer = XmlImporter
- 
+
     instancia = InventoryRefactor(importer)
     report = instancia.import_data(path, type)
     print(report, end='')

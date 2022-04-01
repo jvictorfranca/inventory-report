@@ -12,6 +12,7 @@ class InventoryRefactor(Iterable):
     def __init__(self, importer):
         self.importer = importer
         self.data = []
+
     def import_data(self, path, tipo):
         self.data += self.importer.import_data(path)
         if tipo == "simples":
