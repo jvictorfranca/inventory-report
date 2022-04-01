@@ -1,5 +1,5 @@
 from collections.abc import Iterable
-from inventory_report.importer import csv_importer
+#from inventory_report.importer import csv_importer
 from inventory_report.inventory.inventory_iterator import InventoryIterator
 
 from inventory_report.reports.complete_report import CompleteReport
@@ -21,7 +21,6 @@ class InventoryRefactor(Iterable):
 
     def __iter__(self):
         return InventoryIterator(self.data)
-
 
 # inventory = InventoryRefactor(csv_importer.CsvImporter)
 # inventory.import_data("inventory_report/data/inventory.csv", "simples")
